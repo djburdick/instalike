@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F648BDF180E5123001D8740 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F648BDE180E5123001D8740 /* Foundation.framework */; };
+		3F648BE1180E5123001D8740 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F648BE0180E5123001D8740 /* CoreGraphics.framework */; };
+		3F648BE3180E5123001D8740 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F648BE2180E5123001D8740 /* UIKit.framework */; };
+		3F648BE9180E5123001D8740 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F648BE7180E5123001D8740 /* InfoPlist.strings */; };
+		3F648BEB180E5123001D8740 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F648BEA180E5123001D8740 /* main.m */; };
+		3F648BEF180E5123001D8740 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F648BEE180E5123001D8740 /* AppDelegate.m */; };
+		3F648BF1180E5123001D8740 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F648BF0180E5123001D8740 /* Images.xcassets */; };
+		3F648BF8180E5123001D8740 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F648BF7180E5123001D8740 /* XCTest.framework */; };
+		3F648BF9180E5123001D8740 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F648BDE180E5123001D8740 /* Foundation.framework */; };
+		3F648BFA180E5123001D8740 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F648BE2180E5123001D8740 /* UIKit.framework */; };
+		3F648C02180E5123001D8740 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F648C00180E5123001D8740 /* InfoPlist.strings */; };
+		3F648C04180E5123001D8740 /* instalikeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F648C03180E5123001D8740 /* instalikeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F648BFB180E5123001D8740 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F648BD3180E5123001D8740 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F648BDA180E5123001D8740;
+			remoteInfo = instalike;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F648BDB180E5123001D8740 /* instalike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = instalike.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F648BDE180E5123001D8740 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3F648BE0180E5123001D8740 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3F648BE2180E5123001D8740 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3F648BE6180E5123001D8740 /* instalike-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "instalike-Info.plist"; sourceTree = "<group>"; };
+		3F648BE8180E5123001D8740 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3F648BEA180E5123001D8740 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F648BEC180E5123001D8740 /* instalike-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "instalike-Prefix.pch"; sourceTree = "<group>"; };
+		3F648BED180E5123001D8740 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F648BEE180E5123001D8740 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F648BF0180E5123001D8740 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3F648BF6180E5123001D8740 /* instalikeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = instalikeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F648BF7180E5123001D8740 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3F648BFF180E5123001D8740 /* instalikeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "instalikeTests-Info.plist"; sourceTree = "<group>"; };
+		3F648C01180E5123001D8740 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3F648C03180E5123001D8740 /* instalikeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = instalikeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F648BD8180E5123001D8740 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F648BE1180E5123001D8740 /* CoreGraphics.framework in Frameworks */,
+				3F648BE3180E5123001D8740 /* UIKit.framework in Frameworks */,
+				3F648BDF180E5123001D8740 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F648BF3180E5123001D8740 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F648BF8180E5123001D8740 /* XCTest.framework in Frameworks */,
+				3F648BFA180E5123001D8740 /* UIKit.framework in Frameworks */,
+				3F648BF9180E5123001D8740 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F648BD2180E5123001D8740 = {
+			isa = PBXGroup;
+			children = (
+				3F648BE4180E5123001D8740 /* instalike */,
+				3F648BFD180E5123001D8740 /* instalikeTests */,
+				3F648BDD180E5123001D8740 /* Frameworks */,
+				3F648BDC180E5123001D8740 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F648BDC180E5123001D8740 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F648BDB180E5123001D8740 /* instalike.app */,
+				3F648BF6180E5123001D8740 /* instalikeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F648BDD180E5123001D8740 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F648BDE180E5123001D8740 /* Foundation.framework */,
+				3F648BE0180E5123001D8740 /* CoreGraphics.framework */,
+				3F648BE2180E5123001D8740 /* UIKit.framework */,
+				3F648BF7180E5123001D8740 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F648BE4180E5123001D8740 /* instalike */ = {
+			isa = PBXGroup;
+			children = (
+				3F648BED180E5123001D8740 /* AppDelegate.h */,
+				3F648BEE180E5123001D8740 /* AppDelegate.m */,
+				3F648BF0180E5123001D8740 /* Images.xcassets */,
+				3F648BE5180E5123001D8740 /* Supporting Files */,
+			);
+			path = instalike;
+			sourceTree = "<group>";
+		};
+		3F648BE5180E5123001D8740 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F648BE6180E5123001D8740 /* instalike-Info.plist */,
+				3F648BE7180E5123001D8740 /* InfoPlist.strings */,
+				3F648BEA180E5123001D8740 /* main.m */,
+				3F648BEC180E5123001D8740 /* instalike-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F648BFD180E5123001D8740 /* instalikeTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F648C03180E5123001D8740 /* instalikeTests.m */,
+				3F648BFE180E5123001D8740 /* Supporting Files */,
+			);
+			path = instalikeTests;
+			sourceTree = "<group>";
+		};
+		3F648BFE180E5123001D8740 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F648BFF180E5123001D8740 /* instalikeTests-Info.plist */,
+				3F648C00180E5123001D8740 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F648BDA180E5123001D8740 /* instalike */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F648C07180E5124001D8740 /* Build configuration list for PBXNativeTarget "instalike" */;
+			buildPhases = (
+				3F648BD7180E5123001D8740 /* Sources */,
+				3F648BD8180E5123001D8740 /* Frameworks */,
+				3F648BD9180E5123001D8740 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = instalike;
+			productName = instalike;
+			productReference = 3F648BDB180E5123001D8740 /* instalike.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F648BF5180E5123001D8740 /* instalikeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F648C0A180E5124001D8740 /* Build configuration list for PBXNativeTarget "instalikeTests" */;
+			buildPhases = (
+				3F648BF2180E5123001D8740 /* Sources */,
+				3F648BF3180E5123001D8740 /* Frameworks */,
+				3F648BF4180E5123001D8740 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F648BFC180E5123001D8740 /* PBXTargetDependency */,
+			);
+			name = instalikeTests;
+			productName = instalikeTests;
+			productReference = 3F648BF6180E5123001D8740 /* instalikeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F648BD3180E5123001D8740 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = djp;
+				TargetAttributes = {
+					3F648BF5180E5123001D8740 = {
+						TestTargetID = 3F648BDA180E5123001D8740;
+					};
+				};
+			};
+			buildConfigurationList = 3F648BD6180E5123001D8740 /* Build configuration list for PBXProject "instalike" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3F648BD2180E5123001D8740;
+			productRefGroup = 3F648BDC180E5123001D8740 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F648BDA180E5123001D8740 /* instalike */,
+				3F648BF5180E5123001D8740 /* instalikeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F648BD9180E5123001D8740 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F648BE9180E5123001D8740 /* InfoPlist.strings in Resources */,
+				3F648BF1180E5123001D8740 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F648BF4180E5123001D8740 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F648C02180E5123001D8740 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F648BD7180E5123001D8740 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F648BEF180E5123001D8740 /* AppDelegate.m in Sources */,
+				3F648BEB180E5123001D8740 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F648BF2180E5123001D8740 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F648C04180E5123001D8740 /* instalikeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F648BFC180E5123001D8740 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F648BDA180E5123001D8740 /* instalike */;
+			targetProxy = 3F648BFB180E5123001D8740 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F648BE7180E5123001D8740 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F648BE8180E5123001D8740 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3F648C00180E5123001D8740 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F648C01180E5123001D8740 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F648C05180E5124001D8740 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3F648C06180E5124001D8740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F648C08180E5124001D8740 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "instalike/instalike-Prefix.pch";
+				INFOPLIST_FILE = "instalike/instalike-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3F648C09180E5124001D8740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "instalike/instalike-Prefix.pch";
+				INFOPLIST_FILE = "instalike/instalike-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3F648C0B180E5124001D8740 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/instalike.app/instalike";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "instalike/instalike-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "instalikeTests/instalikeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3F648C0C180E5124001D8740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/instalike.app/instalike";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "instalike/instalike-Prefix.pch";
+				INFOPLIST_FILE = "instalikeTests/instalikeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F648BD6180E5123001D8740 /* Build configuration list for PBXProject "instalike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F648C05180E5124001D8740 /* Debug */,
+				3F648C06180E5124001D8740 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F648C07180E5124001D8740 /* Build configuration list for PBXNativeTarget "instalike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F648C08180E5124001D8740 /* Debug */,
+				3F648C09180E5124001D8740 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F648C0A180E5124001D8740 /* Build configuration list for PBXNativeTarget "instalikeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F648C0B180E5124001D8740 /* Debug */,
+				3F648C0C180E5124001D8740 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F648BD3180E5123001D8740 /* Project object */;
+}
