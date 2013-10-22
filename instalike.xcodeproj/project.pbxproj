@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		223CC32A1816237E00A8EB29 /* InstagramClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 223CC3291816237E00A8EB29 /* InstagramClient.m */; };
+		223CC32F1816246000A8EB29 /* RestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 223CC32E1816246000A8EB29 /* RestObject.m */; };
+		223CC3321816249300A8EB29 /* NSDictionary+CPAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 223CC3311816249300A8EB29 /* NSDictionary+CPAdditions.m */; };
+		2B83FC014EC34E78A1F6C22B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C960C6184FC243539728C5E1 /* libPods.a */; };
 		3F648BDF180E5123001D8740 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F648BDE180E5123001D8740 /* Foundation.framework */; };
 		3F648BE1180E5123001D8740 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F648BE0180E5123001D8740 /* CoreGraphics.framework */; };
 		3F648BE3180E5123001D8740 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F648BE2180E5123001D8740 /* UIKit.framework */; };
@@ -32,6 +36,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		217678CE64EE43C085D31337 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		223CC3281816237E00A8EB29 /* InstagramClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstagramClient.h; sourceTree = "<group>"; };
+		223CC3291816237E00A8EB29 /* InstagramClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstagramClient.m; sourceTree = "<group>"; };
+		223CC32D1816246000A8EB29 /* RestObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestObject.h; sourceTree = "<group>"; };
+		223CC32E1816246000A8EB29 /* RestObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestObject.m; sourceTree = "<group>"; };
+		223CC3301816249300A8EB29 /* NSDictionary+CPAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+CPAdditions.h"; sourceTree = "<group>"; };
+		223CC3311816249300A8EB29 /* NSDictionary+CPAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+CPAdditions.m"; sourceTree = "<group>"; };
+		223CC335181626A200A8EB29 /* InstagramCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InstagramCommon.h; sourceTree = "<group>"; };
 		3F648BDB180E5123001D8740 /* instalike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = instalike.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F648BDE180E5123001D8740 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3F648BE0180E5123001D8740 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +60,7 @@
 		3F648BFF180E5123001D8740 /* instalikeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "instalikeTests-Info.plist"; sourceTree = "<group>"; };
 		3F648C01180E5123001D8740 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3F648C03180E5123001D8740 /* instalikeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = instalikeTests.m; sourceTree = "<group>"; };
+		C960C6184FC243539728C5E1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,7 @@
 				3F648BE1180E5123001D8740 /* CoreGraphics.framework in Frameworks */,
 				3F648BE3180E5123001D8740 /* UIKit.framework in Frameworks */,
 				3F648BDF180E5123001D8740 /* Foundation.framework in Frameworks */,
+				2B83FC014EC34E78A1F6C22B /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +88,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		223CC32B1816244600A8EB29 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				223CC32D1816246000A8EB29 /* RestObject.h */,
+				223CC32E1816246000A8EB29 /* RestObject.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		223CC32C1816245200A8EB29 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				223CC3281816237E00A8EB29 /* InstagramClient.h */,
+				223CC3291816237E00A8EB29 /* InstagramClient.m */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		223CC3331816249E00A8EB29 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				223CC334181624A500A8EB29 /* Categories */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		223CC334181624A500A8EB29 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				223CC3301816249300A8EB29 /* NSDictionary+CPAdditions.h */,
+				223CC3311816249300A8EB29 /* NSDictionary+CPAdditions.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
 		3F648BD2180E5123001D8740 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +130,7 @@
 				3F648BFD180E5123001D8740 /* instalikeTests */,
 				3F648BDD180E5123001D8740 /* Frameworks */,
 				3F648BDC180E5123001D8740 /* Products */,
+				217678CE64EE43C085D31337 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +150,7 @@
 				3F648BE0180E5123001D8740 /* CoreGraphics.framework */,
 				3F648BE2180E5123001D8740 /* UIKit.framework */,
 				3F648BF7180E5123001D8740 /* XCTest.framework */,
+				C960C6184FC243539728C5E1 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -107,6 +158,9 @@
 		3F648BE4180E5123001D8740 /* instalike */ = {
 			isa = PBXGroup;
 			children = (
+				223CC3331816249E00A8EB29 /* Utilities */,
+				223CC32C1816245200A8EB29 /* API */,
+				223CC32B1816244600A8EB29 /* Models */,
 				3F648BED180E5123001D8740 /* AppDelegate.h */,
 				3F648BEE180E5123001D8740 /* AppDelegate.m */,
 				3F648BF0180E5123001D8740 /* Images.xcassets */,
@@ -122,6 +176,7 @@
 				3F648BE7180E5123001D8740 /* InfoPlist.strings */,
 				3F648BEA180E5123001D8740 /* main.m */,
 				3F648BEC180E5123001D8740 /* instalike-Prefix.pch */,
+				223CC335181626A200A8EB29 /* InstagramCommon.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -151,9 +206,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F648C07180E5124001D8740 /* Build configuration list for PBXNativeTarget "instalike" */;
 			buildPhases = (
+				BFDEAA324097441E9A347D66 /* Check Pods Manifest.lock */,
 				3F648BD7180E5123001D8740 /* Sources */,
 				3F648BD8180E5123001D8740 /* Frameworks */,
 				3F648BD9180E5123001D8740 /* Resources */,
+				ABD640422C6E4DCB96D4ED6C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,12 +291,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		ABD640422C6E4DCB96D4ED6C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFDEAA324097441E9A347D66 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3F648BD7180E5123001D8740 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				223CC3321816249300A8EB29 /* NSDictionary+CPAdditions.m in Sources */,
+				223CC32F1816246000A8EB29 /* RestObject.m in Sources */,
 				3F648BEF180E5123001D8740 /* AppDelegate.m in Sources */,
+				223CC32A1816237E00A8EB29 /* InstagramClient.m in Sources */,
 				3F648BEB180E5123001D8740 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -356,6 +449,7 @@
 		};
 		3F648C08180E5124001D8740 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 217678CE64EE43C085D31337 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -369,6 +463,7 @@
 		};
 		3F648C09180E5124001D8740 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 217678CE64EE43C085D31337 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -441,6 +536,7 @@
 				3F648C09180E5124001D8740 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F648C0A180E5124001D8740 /* Build configuration list for PBXNativeTarget "instalikeTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +545,7 @@
 				3F648C0C180E5124001D8740 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
